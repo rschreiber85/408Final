@@ -1,0 +1,132 @@
+body {
+background-image: url("gyro.png");
+background-size: cover;
+}
+.dropbtn {
+ color: black;
+ padding: 20px;
+ font-size: 20px;
+ font: white;
+ border: none;
+ cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+}
+.dropdown {
+ position: relative;
+ display: inline-block;
+ color: white;
+}
+
+.dropdown-content {
+font-size: 20px;
+display: none;
+position: absolute;
+min-width: 20px;
+overflow: auto;
+color: white;
+}
+
+.dropdown-content a {
+padding: 10px 20px;
+display: block;
+color: white;
+}
+.menu-drop{
+display: none;
+position: absolute;
+min-width: 20px;
+overflow: auto;
+color: white;
+}
+
+.menu-drop a {
+font-size: 20px;
+padding: 20px;
+display: block;
+color: white;
+}
+.dropdown-content a:hover {
+}
+
+.menu-drop a:hover {
+}
+
+.show {
+  display:block;
+}
+
+.show1{
+  display:block;
+}
+
+div #name1{
+position: absolute;
+top: 25px;
+left: 150px;
+font-size: 30px;
+color: white;
+font-weight: bold;
+}
+div #address1{
+position: absolute;
+top: 25px;
+left: 375px;
+font-size: 30px;
+color: white;
+font-weight: bold;
+}
+
+div #business1{
+position: absolute;
+top: 240px;
+right: 75px;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+div #service1{
+position: absolute;
+top: 25px;
+right: 75px;
+font-size: 20px;
+font-weight: bold;
+
+
+}
+
+
+div #menu1{
+position:absolute;
+top: 300px;
+left: 10px;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+div #menu2{
+position:absolute;
+left:500px;
+top:150px;
+font-weight: bold;
+font-size: 20px;
+}
+
+div #menu3{
+position:absolute;
+left: 700px;
+top:150px;
+font-weight: bold;
+font-size: 20px;
+}
+
+div #menu4{
+position:absolute;
+left: 400px;
+top:150px;
+font-weight: bold;
+font-size: 20px;
+}
