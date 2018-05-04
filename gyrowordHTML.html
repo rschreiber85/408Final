@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css"  href="gyroworld.css">
+    <script type="text/javascript" src="drop.js"></script>
+  </head>
+  <body>
+    <button onclick="drop()" class="dropbtn">WELCOME</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a id="name" href="#" onclick="myfunction(this.id);">NAME</a>
+      <a id="address"href="#" onclick="myfunction(this.id);">ADDRESS</a>
+      <a id="business"href="#" onclick="myfunction(this.id);">BUSINESS HOURS</a>
+      <a id="menu" href="#" onclick="drop1()" class="dropmenu">MENU</a>
+      <a id="service"href="#" onclick="myfunction(this.id);">SERVICE and FEATURES</a>
+    </div>
+
+    <div class="test">
+      <div id="name1"></div>
+      <div id="address1"></div>
+      <div id="business1"></div>
+      <div id="service1"></div>
+      <div id= "menu1" class="menu-drop">
+        <a id="GYROS" href="#" onclick="myfunction1(this.id);">GYROS</a>
+        <a id="SIDES" href="#" onclick="myfunction1(this.id);">SIDES</a>
+        <a id="DRINKS" href="#" onclick="myfunction1(this.id);">DRINKS</a>
+      </div>
+      <div id="menu2"></div>
+      <div id="menu3"></div>
+      <div id="menu4"></div>
+    </div>
+
+  </body>
+  <script>
+    function myfunction(id){
+      var lol=getData.JSON(id);
+    }
+    function myfunction1(id){
+      var hmm=getData.XML(id);
+    }
+  </script>
+
+</html>
